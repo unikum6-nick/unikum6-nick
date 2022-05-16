@@ -1,0 +1,14 @@
+public class Solution {
+    public static void main(String[] args) {
+        String emptyString = "";
+        String gomu = "Gomu Gomu no Bazooka!";
+        String empty = emptyString + 2 + 2 + "22";
+        int count1 = emptyString.length();
+        int count2 = gomu.length();
+        int count3 = empty.length();
+        //напишите тут ваш код
+        System.out.println(count1);
+        System.out.println(count2);
+        System.out.println((count3);
+    }
+}
