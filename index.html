@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list"></ul>
+      <div class="adv_player">click to check <b>advance player</b> for <b>FREE</b></div>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" placeholder="Minsk"/> 
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="advancedPlayer">
+      <div class="close_player">close</div>
+      <div class="title">now playing</div>
+      <audio class="audio" src="./assets/sounds/We will rock you.mp3"></audio>
+      <div class="cover"><img src="./assets/img/vinil.png" alt="vinil" class="cover__img"> </div>
+      <div class="song">name</div>
+      <div class="progress__container">
+        <div class="progress">
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="btn prev"><img src="./assets/svg/play-prev.svg" alt="prev"></div>
+        <div class="btn playPause"><img class="img__src"  src="./assets/svg/play.svg" alt="play"></div>
+        <div class="btn next"><img src="./assets/svg/play-next.svg" alt="next"></div>
+      </div>
+      <div class="volume__title">volume</div>
+      <div class="volume__container">
+        <div class="volume">
+
+        </div>
+      </div>
+      <div class="mute_btn">
+        <div class="muteTitle">
+          mute
+        </div> 
+      </div>
+
+    </div>
+
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" placeholder="[Enter your name]" class="name" />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <form class='block_form form1' id="form1" action="" >
+      <p class="p_form" >Language</p>
+      <input type="radio" id="english" name="answer" value="en" checked="checked" >
+      <label for="english">en</label>
+      <input type="radio" id="russian" name="answer" value="ru" >
+      <label for="russian">ru</label>
+    </form>   
+    <div class="media">
+      <a href="https://github.com/unikum6-nick">
+        <img src="./assets/img/Octocat.jpg" alt="github" class="media__img">
+      </a>
+      <a href="https://rs.school/js-stage0/">
+        <img src="./assets/img/RSS.png" alt="RSS_img" class="media__img">
+      </a>
+    </div>         
+  </footer>
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>
